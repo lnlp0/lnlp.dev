@@ -36,7 +36,7 @@ const ProfileCard: React.FC = () => {
     >
       <div 
         className={`flex flex-col items-center justify-center transition-all duration-700 ease-in-out ${
-          isHovered ? '-translate-y-8 md:-translate-y-12' : 'translate-y-0'
+          isHovered ? '-translate-y-8 md:-translate-y-10' : 'translate-y-0'
         } cursor-pointer`}
       >
         <div className="w-32 h-32 md:w-40 md:h-40 flex items-center justify-center mb-6">
