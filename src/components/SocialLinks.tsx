@@ -15,7 +15,7 @@ const SocialLinks: React.FC<SocialLinksProps> = ({ isVisible }) => {
   const links: SocialLink[] = [
       { name: 'LinkedIn', icon: <Linkedin size={24} />, url: 'https://www.linkedin.com/in/lnlp' },
       { name: 'GitHub', icon: <Github size={24} />, url: 'https://github.com/lnlp0' },
-      { name: 'Portfolio', icon: <Globe size={24} />, url: 'https://lnlp.notion.site/portfolio' },
+      { name: 'Portfolio', icon: <Globe size={24} />, url: 'https://portfolio.lnlp.dev' },
       { name: 'Email', icon: <Mail size={24} />, url: 'mailto:me@lnlp.dev' },
       { name: 'Instagram', icon: <Instagram size={24} />, url: 'https://instagram.com/ckehdrb/' },
   ];
