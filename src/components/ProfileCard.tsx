@@ -39,11 +39,11 @@ const ProfileCard: React.FC = () => {
           isHovered ? '-translate-y-8 md:-translate-y-10' : 'translate-y-0'
         } cursor-pointer`}
       >
-        <div className="w-32 h-32 md:w-40 md:h-40 flex items-center justify-center mb-6">
+        <div className="flex items-center justify-center w-32 h-32 mb-6 md:w-40 md:h-40">
           <img 
             src="/profile.jpg" 
             alt="Profile" 
-            className="w-full h-full object-cover rounded-full select-none" 
+            className="object-cover w-full h-full rounded-full select-none" 
             draggable="false"
             onContextMenu={(e) => e.preventDefault()}
           />
