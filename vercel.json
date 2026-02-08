@@ -1,0 +1,13 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/coderun",
+      "destination": "https://github.com/Team-Sanche-BiBimBob/CodeRun-Frontend",
+      "permanent": true
+    }
+  ]
+}
