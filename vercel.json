@@ -3,7 +3,9 @@
     {
       "source": "/(.*)",
       "destination": "/index.html"
-    },
+    }
+  ],
+  "redirects": [
     {
       "source": "/coderun",
       "destination": "https://github.com/Team-Sanche-BiBimBob/CodeRun-Frontend",
